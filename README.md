@@ -1,4 +1,5 @@
 🛒 Retail Sales Forecasting & Inventory Optimization System
+
 📌 Project Overview
 An end-to-end Retail Intelligence System that forecasts product demand and optimizes inventory decisions using Machine Learning and operations research techniques.
 
