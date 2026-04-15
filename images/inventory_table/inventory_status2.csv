@@ -1,0 +1,2 @@
+﻿,store_id,item_id,date,qty_sold,day,month,dayofweek,lag_1,lag_7,rolling_mean_7,predicted_sales,safety_stock,reorder_point,order_qty
+15,2,6,2022-12-31,19,31,12,5,18,16,15.142857142857142,15.819844,3.1639688,31.639688,31.639688
