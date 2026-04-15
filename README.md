@@ -1,173 +1,161 @@
+<<<<<<< Updated upstream
 🛒 Retail Sales Forecasting & Inventory Optimization System
 
 📌 Project Overview
 An end-to-end Retail Intelligence System that forecasts product demand and optimizes inventory decisions using Machine Learning and operations research techniques.
+=======
+# 🛒 Retail Sales Forecasting & Inventory Optimization System
+>>>>>>> Stashed changes
 
-This project simulates a real-world retail environment and provides actionable insights such as:
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Machine Learning](https://img.shields.io/badge/ML-XGBoost-orange)
+![Streamlit](https://img.shields.io/badge/Dashboard-Streamlit-red)
+![Status](https://img.shields.io/badge/Project-Completed-green)
 
-Future sales predictions 📈
+---
 
-Reorder recommendations 📦
+## 🚀 Project Overview
 
-Safety stock calculations 📊
+An **end-to-end Retail Intelligence System** that forecasts product demand and optimizes inventory decisions using **Machine Learning + Operations Research + Simulation**.
 
-🎯 Problem Statement
-Retail businesses often face:
+This system replicates a **real-world retail supply chain workflow** used in companies like Amazon, Walmart, and Flipkart.
 
-❌ Stockouts (lost sales)
+---
 
-❌ Overstocking (high holding cost)
+## 🎯 Business Problem
 
-❌ Poor demand planning
+Retail businesses face critical challenges:
 
-This project solves these problems by:
-✔ Predicting demand accurately
-✔ Optimizing inventory levels
-✔ Improving business decision-making
+- ❌ Stockouts → Lost revenue  
+- ❌ Overstocking → High holding cost  
+- ❌ Poor demand forecasting  
+- ❌ Inefficient replenishment cycles  
 
-🏭 Industry Relevance
-Used in real companies like:
+---
 
-Amazon
+## 💡 Solution
 
-Walmart
+This system solves these problems by:
 
-Reliance Retail
+✔ Predicting future product demand  
+✔ Calculating optimal inventory levels  
+✔ Generating reorder recommendations  
+✔ Reducing stockouts and excess inventory  
 
-Flipkart
+---
 
-These companies rely on forecasting + inventory optimization to:
+## 🏭 Industry Relevance
 
-Improve fill rate
+Used in real-world retail systems such as:
 
-Reduce working capital
+- Amazon Fulfillment Centers  
+- Walmart Supply Chain Systems  
+- Reliance Retail Inventory Planning  
+- Flipkart Seller Forecasting  
 
-Maximize profits
+---
 
-💼 Business Value
-📉 Reduces stockouts
+## 💼 Business Impact
 
-💰 Minimizes inventory cost
+- 📉 Reduces stockouts  
+- 💰 Optimizes inventory cost  
+- 📊 Improves demand accuracy  
+- 🚀 Enhances supply chain efficiency  
 
-📊 Improves demand planning
+---
 
-🚀 Increases operational efficiency
+## 🧠 Tech Stack
 
-🧠 Tech Stack
-Python
+- Python 🐍  
+- Pandas / NumPy  
+- Scikit-learn / XGBoost  
+- Plotly / Matplotlib / Seaborn  
+- Streamlit (Dashboard)  
 
-Pandas, NumPy
+---
 
-Scikit-learn, XGBoost
+## 🏗️ System Architecture
 
-Matplotlib, Seaborn, Plotly
+Data → Cleaning → Feature Engineering → ML Model → Forecasting → Inventory Optimization → Dashboard
 
-Streamlit (Dashboard)
+---
 
-🏗️ System Architecture
-Data → Preprocessing → Feature Engineering → Model Training → Forecasting → Inventory Optimization → Dashboard
-📁 Project Structure
+## 📁 Project Structure
+
+```bash
 Retail-Forecasting-System/
 │
-├── app/                # Streamlit dashboard
-├── data/
-│   ├── raw/
-│   └── processed/
-├── notebooks/          # EDA notebooks
-├── src/                # Core ML pipeline
-├── models/             # Saved models
-├── outputs/            # Forecast & inventory outputs
-├── images/             # Screenshots for README
-├── reports/            # Project reports
-│
-├── main.py             # Main pipeline script
+├── app/                  # Streamlit dashboard
+├── data/                 # Raw & processed datasets
+├── notebooks/           # EDA & experiments
+├── src/                 # ML pipeline modules
+├── models/             # Trained models
+├── outputs/            # Forecast results
+├── images/             # Dashboard screenshots
+├── reports/            # Analysis reports
+├── main.py             # Pipeline entry point
 ├── requirements.txt
-├── README.md
-└── .gitignore
+└── README.md
+
+
 ⚙️ Installation
-git clone https://github.com/YOUR_USERNAME/retail-sales-forecasting-inventory-optimization.git
+git clone https://github.com/vyawaha/retail-sales-forecasting-inventory-optimization.git
 cd retail-sales-forecasting-inventory-optimization
-
 pip install -r requirements.txt
+
 ▶️ How to Run
-Step 1 — Run pipeline
 python main.py
-Step 2 — Run dashboard
+
+Launch Dashboard
 streamlit run app/streamlit_app.py
-🔄 Simulation Workflow
-Generate or load retail dataset
 
-Perform preprocessing & feature engineering
 
-Train ML forecasting model
+📊 Key Features
+📈 Demand Forecasting (XGBoost)
+📦 Inventory Optimization (ROP, Safety Stock, EOQ)
+🚨 Stock Alert System
+📊 Business KPI Dashboard
+🧠 Retail Simulation Engine
 
-Generate future demand predictions
-
-Apply inventory optimization logic
-
-Visualize results in dashboard
-
-📊 Results
-📈 Forecast Output
-Predicts next 7 days demand
-
-Captures trend and seasonality
-
-📦 Inventory Optimization
-Safety Stock calculation
-
-Reorder Point (ROP)
-
-Smart replenishment recommendation
-
-📸 Screenshots
-## 📊 KPI Dashboard
+📸 Dashboard Preview
+📊 KPI Dashboard
 ![KPI](images/kpi_dashboard/kpi_1.png)
 
-## 🚨 Stock Alerts
+🚨 Stock Alerts
 ![Alerts](images/stock_alerts1.png/low_stock1.png)
 
-## 📦 Inventory Table
-![Inventory](images/inventory_table1.png/inventory_status1.png)
-
-
-🚀 Key Features
-End-to-end ML pipeline
-
-Time-series forecasting
-
-Inventory optimization logic
-
-Interactive Streamlit dashboard
-
-Real-world retail simulation
+📦 Inventory Status Table
+![Inventory](images/inventory_table1.csv/inventory_status1.csv)
 
 📚 Learning Outcomes
+End-to-end ML system design
 Time-series forecasting
-
-Feature engineering for ML
-
 Inventory optimization techniques
-
-Building end-to-end data science systems
-
-Deploying dashboards
+Business KPI simulation
+Streamlit dashboard development
 
 🔮 Future Improvements
-Multi-store forecasting
-
-Promotion impact modeling
-
+Multi-store forecasting system
 Real-time API integration
-
-Advanced models (LSTM, Prophet)
-
-Cloud deployment
+LSTM / Prophet forecasting models
+Cloud deployment (AWS / Azure)
+Auto-retraining pipeline
 
 👨‍💻 Author
 Muktai Vyawahare
-LinkedIn: https://www.linkedin.com/in/muktai-vyawahare-aa9b12312?utm_source=share_via&utm_content=profile&utm_medium=member_android
-GitHub: https://github.com/vyawaha/retail-sales-forecasting-inventory-optimization.git
 
+<<<<<<< Updated upstream
 ⭐ If you like this project
 Give it a star ⭐ and share it!
+=======
+🔗 LinkedIn: https://www.linkedin.com/in/muktai-vyawahare-aa9b12312?utm_source=share_via&utm_content=profile&utm_medium=member_android
+
+💻 GitHub: https://github.com/vyawaha/retail-sales-forecasting-inventory-optimization.git
+
+⭐ Support
+If you like this project:
+
+⭐ Star the repo
+🍴 Fork it
+📢 Share it
+>>>>>>> Stashed changes
